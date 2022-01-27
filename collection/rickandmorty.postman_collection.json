@@ -1,0 +1,30 @@
+{
+	"info": {
+		"_postman_id": "dd8dda8f-ce3a-4262-b2af-f32755418571",
+		"name": "rickandmorty",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "characterorigin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/rickandmorty/characterorigin/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rickandmorty",
+						"characterorigin",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
